@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+<head>
+
+    <title>
+
+        Mathias' Portfolio
+
+    </title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="#about"> About</a>
+            <a href="#skills"> Skills</a>
+            <a href="#accomplishments"> Accomplishments</a>
+            <a href="#contacts"> Contacts</a>
+        </nav>
+        <h1>Mathias Seviiri</h1>
+        <img src="IMG_7266.jpg" width="100" height="100" alt=" Mathias heading to work" style="vertical-align:middle;margin:0px 500px">
+        <!--<img src=" IMG_7266.jpg " alt="Mathias heading to work " /> then use CSS to adjust the pic-->
+        <!--You can also use <image src="IMG_7266.jpg " alt=" Dr. Mathias Seviiri at QIMR in 2021 " width="200 " height="200 ">
+        <image/> For unknown reasons I cannot use alt="Mathias heading to work "-->
+        <figcaption style="vertical-align:middle;margin:0px 500px">A happy Mathias heading to work</figcaption>
+    </header>
+    <main>
+
+        <h2>About</h2>
+        <p>Dr. Mathias Seviiri (MD, MPH) is pursuing a
+            <strong>PhD in Statistical Genetics</strong> at
+            <a href=" https://www.qimrberghofer.edu.au/our-research/chronic-disorders/statistical-genetics/ " target="_blank "> <strong>QIMR Berghofer Medical Research Institute,</strong> </a> and
+            <a href="https://www.qut.edu.au/ " target="_blank "> <strong>Queensland University of Technology,</strong> </a> Brisbane, Australia. His work focuses on the <strong>genetics of skin cancers</strong> especially utilizing
+            <strong> <em>polygenic risk scores</em></strong> to profile organ transplant recipients and melanoma patients for
+            <strong>skin cancer risk and survival</strong> respectively. He has published in top notch journals like <em>Journal of Investigative Dermatology, The Lancet Global Health, Heart (BMJ) </em>among others. His work has been presented at national
+            and international conferences including; the
+            <a href="https://www.ashg.org/meetings/2020meeting/ " target="_blank "> <em>American Society for Human Genetics Conference 2020</em> </a>and
+            <em>the Australasian Epidemiological Association Conference 2016</em>. He has a rich international educational experience from reputable universities in Australia, Europe and Africa. He previously worked at
+            <a href="https://www.cancervic.org.au/ " target="_blank "> <strong>Cancer Council Victoria,</strong> </a> and with the
+            <a href="https://www.health.go.ug/ " target="_blank "> <strong>Ministry of Health,</strong> </a> in Uganda. His research interests include;cancer genetics and epidemiology, and precision health.
+        </p>
+        <br><br>
+
+        <h3>Skills</h3>
+        <h4>Research skills</h4>
+        <ul>
+            <li>Data collection</li>
+            <li>Data analysis</li>
+            <li>Scientific writing-abstracts and manuscripts</li>
+            <li style="color: black ">Scientific communication-oral and poster presenation</li>
+        </ul>
+        <h4>Interpersonal skills</h4>
+        <ul>
+            <li>Effective communication</li>
+            <li>Collaborative and teamwork</li>
+            <li>Mentorship</li>
+            <li>Leadership</li>
+        </ul>
+        <h4>Technical skills</h4>
+        <ul>
+            <li>Programing langauage (
+                <em>R, STATA, Bash, HTML, CSS and Javascript</em>)</li>
+            <li>Linux, MacOS, Microsoft operating sytems</li>
+            <li>Software proficiency (
+                <em>R, PLINK, STATA, SAIGE, BOLT-LLM, LDPred</em>)</li>
+            <li>Project management</li>
+        </ul>
+
+        <h2>Accompolishments</h2>
+        <a href="https://scholar.google.com/citations?user=Ovsy16IAAAAJ&hl=en " target="_blank "> Publications</a>
+        <br>
+        <a href="http://orcid.org/0000-0002-8610-3283 " target="_blank "> ORCiD</a>
+        <h3>Awards</h3>
+        <table>
+            <!--OR  justable after the table element use this for the table columns-->
+            <!-- <tr>-->
+            <!--<th>Award</th>-->
+            <!--<th>Year</th>-->
+            <!-- <th>Purpose</th>-->
+            <!-- <th>Awarding Institution</th>-->
+            <!--</tr>-->
+
+            <th scope="col ">Award </th>
+            <th scope="col ">Year </th>
+            <th scope="col ">Purpose </th>
+            <th scope="col ">Awarding Institution </th>
+            <tr>
+                <td>Research Training Program</td>
+                <td>2019-22</td>
+                <td>Doctorate of Philosophy</td>
+                <td>Australian Government</td>
+            </tr>
+            <tr>
+
+                <td>Australian Award Scholarship</td>
+                <td>2015-16</td>
+                <td>Master of Public Health</td>
+                <td>Australian Government</td>
+            </tr>
+            <tr>
+                <td>Commonwealth Professional Fellowship</td>
+                <td>2014</td>
+                <td>Fellowship</td>
+                <td>UK Commonwealth Scholarship Commission</td>
+            </tr>
+        </table>
+
+
+        <h2>Contacts</h2>
+        <a href="https://ug.linkedin.com/in/mathias-seviiri-56a47636 " target="_blank "> LinkedIn</a>
+        <br>
+        <a href="https://mobile.twitter.com/mathiasseviiri?lang=en " target="_blank "> twitter</a>
+
+        <h3>Contact form</h3>
+        <form>
+            <label for="fname ">First name:</label><br>
+            <input type="text " id="fname " name="fname " value=" "><br>
+            <label for="lname ">Last name:</label><br>
+            <input type="text " id="lname " name="lname " value=" "><br><br>
+
+            <label for="email ">Email*:</label><br>
+            <input type="text " id="email " name="email " required pattern=“[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$”><br><br>
+
+
+            <label for="mobile ">Mobile (optional):</label><br>
+            <input type="text " id="mobile " name="mobile " pattern=“[0-9]{10,16}”><br><br>
+
+
+            <label for="textarea ">Please leave your comments below</label>
+
+            <br>
+            <textarea id="textarea " name="textarea " rows="5 " cols="30 ">
+      
+        </textarea>
+            <br>
+            <input type="submit " value="Submit ">
+
+        </form>
+
+
+
+
+
+        <h3> "How much do you know about Mathias? "</h3>
+        <a href="./quiz.html ">Take the Portfolio Quiz!</a><br>
+
+
+    </main>
+    <footer>
+        <p>Copyright 2021 by Mathias Seviiri. All Rights Reserved</p>
+    </footer>
+</body>
+
+
+</html>
